@@ -9,7 +9,6 @@ import { database } from "../index.js";
 import { get, ref, set } from "firebase/database";
 import { getDatabase } from "firebase/database";
 
-let limitOfvideos = 3000;
 
 const myCache = new NodeCache();
 
